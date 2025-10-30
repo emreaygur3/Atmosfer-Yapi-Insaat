@@ -8,7 +8,7 @@ import Image from "next/image"
 
 const navigation = [
   { name: "Ana Sayfa", href: "/" },
-  { name: "Hizmetlerimiz", href: "/services" },
+  { name: "Ürünlerimiz", href: "/services" },
   { name: "İletişim", href: "/contact" },
 ]
 
@@ -43,7 +43,7 @@ export function Header() {
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-6 lg:gap-8">
             {navigation.map((item) => {
-              if (item.name === "Hizmetlerimiz") {
+              if (item.name === "Ürünlerimiz") {
                 return (
                   <div key={item.name} className="relative group">
                     <Link
@@ -99,10 +99,22 @@ export function Header() {
             </a>
           </div>
 
-          {/* Mobile Menu Button */}
-          <button className="md:hidden p-2" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
-            {mobileMenuOpen ? <X className="w-6 h-6 text-foreground" /> : <Menu className="w-6 h-6 text-foreground" />}
-          </button>
+          {/* Mobile WhatsApp Button & Menu */}
+          <div className="md:hidden flex items-center gap-3">
+            <a
+              href="https://wa.me/905330871948"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-3 py-2 bg-[#3B82F6] hover:bg-[#2563EB] text-white rounded-md transition-colors flex items-center gap-2"
+              title="WhatsApp ile İletişime Geçin"
+            >
+              <MessageCircle className="w-4 h-4" />
+              <span className="text-sm font-medium">WhatsApp</span>
+            </a>
+            <button className="p-2" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
+              {mobileMenuOpen ? <X className="w-6 h-6 text-foreground" /> : <Menu className="w-6 h-6 text-foreground" />}
+            </button>
+          </div>
         </div>
 
         {/* Mobile Navigation */}
@@ -110,7 +122,7 @@ export function Header() {
           <div className="md:hidden py-4 border-t border-border">
             <div className="flex flex-col gap-4">
               {navigation.map((item) => {
-                if (item.name === "Hizmetlerimiz") {
+                if (item.name === "Ürünlerimiz") {
                   return (
                     <div key={item.name}>
                       <Link
@@ -150,16 +162,6 @@ export function Header() {
                   </Link>
                 )
               })}
-              <a
-                href="https://wa.me/905330871948"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="px-4 py-2 bg-[#3B82F6] hover:bg-[#2563EB] text-white rounded-md transition-colors flex items-center gap-2 justify-center"
-                onClick={() => setMobileMenuOpen(false)}
-              >
-                <MessageCircle className="w-4 h-4" />
-                <span className="text-sm font-medium">WhatsApp</span>
-              </a>
             </div>
           </div>
         )}

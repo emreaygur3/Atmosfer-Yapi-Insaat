@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Building2, HardHat, Wrench } from "lucide-react"
+import { Building2, HardHat, Wrench, Zap } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { ScrollReveal } from "@/components/scroll-reveal"
 import type { Metadata } from "next"
@@ -83,8 +83,8 @@ export default function HomePage() {
             </h2>
           </ScrollReveal>
 
-          {/* Grid: 1 kolon mobil, 2 kolon tablet, 3 kolon desktop */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6 max-w-[1400px] mx-auto">
+          {/* Grid: 1 kolon mobil, 2 kolon tablet, 4 kolon desktop */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-6 max-w-[1400px] mx-auto">
             <ScrollReveal direction="up" delay={150} duration={700}>
               <div className="bg-card p-6 sm:p-8 rounded-xl border-2 border-border hover:border-primary transition-all duration-300 hover:shadow-xl h-full flex flex-col cursor-pointer group">
                 <div className="w-14 h-14 sm:w-16 sm:h-16 bg-primary/10 rounded-xl flex items-center justify-center mb-4 sm:mb-6 flex-shrink-0 group-hover:bg-primary/20 transition-colors">
@@ -119,6 +119,20 @@ export default function HomePage() {
                 </h3>
                 <p className="text-sm sm:text-base text-muted-foreground leading-relaxed flex-grow">
                   İnşaat projeleriniz için yüksek kaliteli teleskopik direk sistemleri.
+                </p>
+              </div>
+            </ScrollReveal>
+
+            <ScrollReveal direction="up" delay={600} duration={700}>
+              <div className="bg-card p-6 sm:p-8 rounded-xl border-2 border-border hover:border-primary transition-all duration-300 hover:shadow-xl h-full flex flex-col cursor-pointer group">
+                <div className="w-14 h-14 sm:w-16 sm:h-16 bg-primary/10 rounded-xl flex items-center justify-center mb-4 sm:mb-6 flex-shrink-0 group-hover:bg-primary/20 transition-colors">
+                  <Zap className="w-7 h-7 sm:w-8 sm:h-8 text-primary" />
+                </div>
+                <h3 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4 text-card-foreground group-hover:text-primary transition-colors">
+                  Teleskopik Direk Kiralama
+                </h3>
+                <p className="text-sm sm:text-base text-muted-foreground leading-relaxed flex-grow">
+                  Esnek kiralama seçenekleri ile ekonomik ve hızlı teleskopik direk çözümleri.
                 </p>
               </div>
             </ScrollReveal>

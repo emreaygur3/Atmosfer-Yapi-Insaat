@@ -24,7 +24,7 @@ const services = [
     description:
       "Hızlı montaj ve demontaj imkanı sunan, dayanıklı flanşlı iskele sistemleri. Büyük ölçekli projeler için ideal.",
     icon: HardHat,
-    image: "/flanged-scaffolding-system.jpg",
+    image: "/flanşlı_iskele.png",
     href: "/services/flansli-iskele",
   },
   {
@@ -32,14 +32,14 @@ const services = [
     description:
       "Kolay taşınabilir, pratik kullanım sunan mobil iskele sistemleri. İç mekan çalışmaları için mükemmel çözüm.",
     icon: Wrench,
-    image: "/mobile-scaffolding-tower.jpg",
+    image: "/mobil-iskele.jpg",
     href: "/services/mobil-iskele",
   },
   {
     title: "Teleskopik İnşaat Direği",
     description: "Ayarlanabilir yükseklik özelliği ile farklı projelere uyum sağlayan teleskopik direk sistemleri.",
     icon: Crane,
-    image: "/telescopic-construction-pole.jpg",
+    image: "/Teleskobik_direk.jpg",
     href: "/services/teleskobik-insaat-diregi",
   },
   {
@@ -59,7 +59,7 @@ export default function ServicesPage() {
           <ScrollReveal direction="up">
             <div className="max-w-4xl mx-auto text-center">
               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 text-foreground">
-                Hizmetlerimiz
+                Ürünlerimiz ve Hizmetlerimiz
               </h1>
               <p className="text-base sm:text-lg lg:text-xl text-muted-foreground leading-relaxed">
                 İnşaat projeleriniz için kapsamlı iskele ve kalıp sistemleri çözümleri sunuyoruz.
