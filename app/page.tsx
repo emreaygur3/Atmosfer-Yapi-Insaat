@@ -24,8 +24,7 @@ export default function HomePage() {
         <div
           className="absolute inset-0 z-0"
           style={{
-            backgroundImage:
-              "url(https://hebbkx1anhila5yf.public.blob.vercel-storage.com/guvenlikli-iskele-sistemleri-160VFA6NXK97Q2cmsTK9L6wjTjUIq7.jpg)",
+            backgroundImage: "url(/main-page.jpg)",
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}
