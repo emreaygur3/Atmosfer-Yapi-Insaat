@@ -45,7 +45,7 @@ export function Footer() {
               <MessageCircle className="w-5 h-5" />
             </a>
             <a
-              href="https://www.instagram.com/"
+              href="https://www.instagram.com/icen.orhan/"
               target="_blank"
               rel="noopener noreferrer"
               className="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center hover:bg-[#3B82F6] hover:scale-110 hover:text-white transition-all duration-250 cursor-pointer"

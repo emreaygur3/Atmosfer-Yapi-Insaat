@@ -119,10 +119,10 @@ export default function ContactPage() {
                       <div className="flex-1 min-w-0">
                         <h3 className="font-semibold text-lg mb-1.5 text-foreground">E-posta</h3>
                         <a
-                          href="mailto:orhanicen305@gmail.com"
+                          href="mailto:atmosferyapiinsaat@gmail.com"
                           className="text-sm sm:text-base text-muted-foreground hover:text-primary transition-colors break-all inline-block cursor-pointer hover:underline"
                         >
-                          orhanicen305@gmail.com
+                          atmosferyapiinsaat@gmail.com
                         </a>
                       </div>
                     </div>
@@ -152,7 +152,7 @@ export default function ContactPage() {
                           <MessageCircle className="w-6 h-6" />
                         </a>
                         <a
-                          href="https://www.instagram.com/"
+                          href="https://www.instagram.com/icen.orhan/"
                           target="_blank"
                           rel="noopener noreferrer"
                           className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-all hover:scale-105 cursor-pointer"
