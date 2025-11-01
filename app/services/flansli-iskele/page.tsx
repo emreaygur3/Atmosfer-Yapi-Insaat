@@ -24,7 +24,7 @@ export default function FlansliIskelePage() {
           <div className="max-w-5xl mx-auto">
             {/* Main Image */}
             <div className="relative h-96 rounded-lg overflow-hidden mb-12">
-              <Image src="/flanged-scaffolding-system.jpg" alt="Flanşlı İskele Sistemi" fill className="object-cover" />
+              <Image src="/flanşlı_iskele.png" alt="Flanşlı İskele Sistemi" fill className="object-cover" />
             </div>
 
             {/* Description */}

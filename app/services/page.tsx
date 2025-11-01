@@ -43,10 +43,10 @@ const services = [
     href: "/services/teleskobik-insaat-diregi",
   },
   {
-    title: "Çiroz Asansör ve Playwood",
+    title: "İskele Kalıp Aksesuarları",
     description: "Yüksek katlı binalarda malzeme ve personel taşımacılığı için güvenli asansör sistemleri.",
     icon: Boxes,
-    image: "/construction-elevator-hoist.jpg",
+    image: "/iskele-kalıp-aksesuarları.jpg",
     href: "/services/ciroz-asansor-playwood",
   },
 ]

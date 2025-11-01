@@ -15,13 +15,40 @@ export default function ContactPage() {
     email: "",
     message: "",
   })
+  const [isSubmitting, setIsSubmitting] = useState(false)
+  const [submitStatus, setSubmitStatus] = useState<"idle" | "success" | "error">("idle")
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
-    // Form submission logic would go here
-    console.log("Form submitted:", formData)
-    alert("Mesajınız alındı! En kısa sürede size dönüş yapacağız.")
-    setFormData({ name: "", email: "", message: "" })
+    setIsSubmitting(true)
+    setSubmitStatus("idle")
+
+    try {
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      })
+
+      const result = await response.json()
+
+      if (response.ok && result.success) {
+        setSubmitStatus("success")
+        setFormData({ name: "", email: "", message: "" })
+        alert("✓ Mesajınız başarıyla gönderildi! En kısa sürede size dönüş yapacağız.")
+      } else {
+        setSubmitStatus("error")
+        alert("✗ Bir hata oluştu. Lütfen daha sonra tekrar deneyin veya telefon ile iletişime geçin.")
+      }
+    } catch (error) {
+      setSubmitStatus("error")
+      alert("✗ Bir hata oluştu. Lütfen daha sonra tekrar deneyin veya telefon ile iletişime geçin.")
+      console.error("Form gönderme hatası:", error)
+    } finally {
+      setIsSubmitting(false)
+    }
   }
 
   return (
@@ -61,7 +88,7 @@ export default function ContactPage() {
                       <div className="flex-1 min-w-0">
                         <h3 className="font-semibold text-lg mb-1.5 text-foreground">Adres</h3>
                         <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">
-                          Fatih Mah. Bitlis Yolu Cad. Zafer Petrol Yanı No:95/A
+                          Fatih Mah. Bitlis Yolu Cad. Zafer Petrol Yanı No:67-1
                           <br />
                           Tatvan / Bitlis
                         </p>
@@ -151,7 +178,7 @@ export default function ContactPage() {
                 <div className="rounded-xl overflow-hidden border-2 border-border shadow-lg">
                   <div className="h-72 sm:h-80 lg:h-96 w-full">
                     <iframe
-                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3067.8234567890123!2d42.28123!3d38.49876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzjCsDI5JzU1LjUiTiA0MsKwMTYnNTIuNCJF!5e0!3m2!1str!2str!4v1234567890!5m2!1str!2str"
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3067.5!2d42.2526!3d38.5182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzjCsDMxJzA1LjYiTiA0MsKwMTUnMDkuMyJF!5e0!3m2!1str!2str!4v1234567890!5m2!1str!2str"
                       width="100%"
                       height="100%"
                       style={{ border: 0 }}
@@ -164,7 +191,7 @@ export default function ContactPage() {
                   {/* Yol Tarifi Butonu */}
                   <div className="p-4 bg-card border-t border-border">
                     <a
-                      href="https://www.google.com/maps/dir//Fatih+Mah.+Bitlis+Yolu+Cad.+Zafer+Petrol+Yanı+No:95%2FA+Tatvan+Bitlis/@38.49876,42.28123"
+                      href="https://www.google.com/maps/dir//38.5182,42.2526"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex items-center justify-center gap-2 w-full px-4 py-3 bg-primary hover:bg-primary/90 text-primary-foreground rounded-lg transition-all duration-300 font-semibold text-sm sm:text-base cursor-pointer group"
@@ -227,8 +254,13 @@ export default function ContactPage() {
                     />
                   </div>
 
-                  <Button type="submit" size="lg" className="w-full text-base font-semibold h-12 cursor-pointer">
-                    Mesaj Gönder
+                  <Button 
+                    type="submit" 
+                    size="lg" 
+                    className="w-full text-base font-semibold h-12 cursor-pointer"
+                    disabled={isSubmitting}
+                  >
+                    {isSubmitting ? "Gönderiliyor..." : "Mesaj Gönder"}
                   </Button>
                 </form>
               </div>

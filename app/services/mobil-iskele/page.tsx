@@ -24,7 +24,7 @@ export default function MobilIskelePage() {
           <div className="max-w-5xl mx-auto">
             {/* Main Image */}
             <div className="relative h-96 rounded-lg overflow-hidden mb-12">
-              <Image src="/mobile-scaffolding-tower.jpg" alt="Mobil İskele Sistemi" fill className="object-cover" />
+              <Image src="/mobil-iskele.jpg" alt="Mobil İskele Sistemi" fill className="object-cover" />
             </div>
 
             {/* Description */}

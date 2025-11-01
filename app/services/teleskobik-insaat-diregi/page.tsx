@@ -25,7 +25,7 @@ export default function TeleskobikInsaatDiregiPage() {
             {/* Main Image */}
             <div className="relative h-96 rounded-lg overflow-hidden mb-12">
               <Image
-                src="/telescopic-construction-pole.jpg"
+                src="/Teleskobik_direk.jpg"
                 alt="Teleskobik İnşaat Direği"
                 fill
                 className="object-cover"

@@ -31,11 +31,11 @@ export function Header() {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3">
             <Image
-              src="/images/design-mode/atmosfer-logo.png"
+              src="/images/design-mode/LOGO.png"
               alt="Atmosfer Yapı İnşaat Logo"
               width={560}
               height={224}
-              className="h-12 sm:h-16 lg:h-20 w-auto"
+              className="h-15 sm:h-20 lg:h-24 w-auto"
               priority
             />
           </Link>

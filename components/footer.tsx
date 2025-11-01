@@ -11,7 +11,7 @@ export function Footer() {
           <div className="flex-shrink-0">
             <Link href="/" className="inline-block">
               <Image
-                src="/images/design-mode/atmosfer-logo.png"
+                src="/images/design-mode/LOGO.png"
                 alt="Atmosfer Yapı İnşaat Logo"
                 width={960}
                 height={384}
