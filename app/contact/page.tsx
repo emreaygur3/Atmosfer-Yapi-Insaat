@@ -161,7 +161,7 @@ export default function ContactPage() {
                           <Instagram className="w-6 h-6" />
                         </a>
                         <a
-                          href="https://www.facebook.com/profile.php?id=100050840426995"
+                          href="https://www.facebook.com/orhan.icen"
                           target="_blank"
                           rel="noopener noreferrer"
                           className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-all hover:scale-105 cursor-pointer"
