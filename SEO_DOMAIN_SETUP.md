@@ -6,7 +6,7 @@
 ```
 1. Vercel Dashboard → Settings → Domains
 2. "Buy" butonuna tıkla
-3. "atmosferyapiinsaat.com" ara ve satın al ($15-20/yıl)
+3. "atmosferyapi.com" ara ve satın al ($15-20/yıl)
 4. Otomatik kurulum tamamlanır ✅
 ```
 
@@ -14,7 +14,7 @@
 ```
 1. Google Search Console → Domain ekle
 2. TXT record'u Vercel DNS'e ekle
-3. Sitemap gönder: atmosferyapiinsaat.com/sitemap.xml
+3. Sitemap gönder: atmosferyapi.com/sitemap.xml
 ```
 
 ### 3️⃣ Google Maps'e Ekle (15 dakika)
@@ -87,9 +87,9 @@
 ### Adım 2: Vercel'den Domain Satın Alma
 
 **Önerilen Domain İsimleri:**
-1. ✅ **atmosferyapiinsaat.com** (en iyi seçenek)
-2. atmosferiskele.com
-3. atmosferyapi.com
+1. ✅ **atmosferyapi.com** (SEÇTINIZ - en iyi seçenek)
+2. atmosferyapi.com
+3. atmosferiskele.com
 4. bitlisiskele.com
 
 **ADIMLAR:**
@@ -97,7 +97,7 @@
 1. **Domains sayfasında "Buy" butonuna tıklayın**
 
 2. **Domain adını arayın:**
-   - `atmosferyapiinsaat.com` yazın ve Search'e tıklayın
+   - `atmosferyapi.com` yazın ve Search'e tıklayın
    - Müsaitse "Buy" butonu görünür
 
 3. **Ödeme işlemi:**
@@ -114,12 +114,12 @@
 
 5. **Aktifleşme:**
    - Ödeme sonrası 5-15 dakika içinde aktif olur
-   - `atmosferyapiinsaat.com` adresiniz hazır!
+   - `atmosferyapi.com` adresiniz hazır!
 
 ### Adım 3: Domain Doğrulama (Otomatik)
 - ✅ Vercel domain'i projeye otomatik bağlar
 - ✅ SSL/HTTPS otomatik kurulur
-- ✅ `www.atmosferyapiinsaat.com` → `atmosferyapiinsaat.com` yönlendirmesi otomatik
+- ✅ `www.atmosferyapi.com` → `atmosferyapi.com` yönlendirmesi otomatik
 - ✅ Hiçbir ek işlem gerekmez
 
 ### 🎯 Vercel Domain'in Avantajları:
@@ -136,7 +136,7 @@
 ### 1. Google Search Console'a Kayıt
 1. https://search.google.com/search-console/ adresine gidin
 2. "Mülk ekle" → **"Domain"** seçeneğini seçin
-3. Domain adınızı girin: `atmosferyapiinsaat.com`
+3. Domain adınızı girin: `atmosferyapi.com`
 
 ### 2. Domain Doğrulama (Vercel Domain için KOLAY)
 
@@ -164,7 +164,7 @@
 
 ### 3. Sitemap Gönderimi
 ```
-https://atmosferyapiinsaat.com/sitemap.xml
+https://atmosferyapi.com/sitemap.xml
 ```
 Bu URL'yi Search Console'da "Sitemap" bölümüne ekleyin
 
@@ -189,7 +189,7 @@ Bu yöntemle TXT record'a gerek kalmaz (opsiyonel).
    - **Kategori:** İnşaat Şirketi / İnşaat Ekipmanları Tedarikçisi
    - **Adres:** Fatih Mah. Bitlis Yolu Cad. Zafer Petrol Yanı No:67-1, Tatvan/Bitlis
    - **Telefon:** 0533 087 19 48
-   - **Website:** https://atmosferyapiinsaat.com
+   - **Website:** https://atmosferyapi.com
 
 ### 2. Doğrulama
 - Google posta ile doğrulama kodu gönderecek
@@ -242,7 +242,7 @@ Blog yazıları ekleyin (opsiyonel):
 **Vercel'den Domain Alma (ŞİMDİ):**
 1. [ ] Vercel Dashboard → Settings → Domains
 2. [ ] "Buy" butonuna tıkla
-3. [ ] `atmosferyapiinsaat.com` ara ve satın al (~$15-20/yıl)
+3. [ ] `atmosferyapi.com` ara ve satın al (~$15-20/yıl)
 4. [ ] 5-15 dakika bekle (otomatik yapılandırma)
 5. [ ] Domain aktif! ✅
 
@@ -271,8 +271,8 @@ SMTP_PASSWORD=[Gmail uygulama şifresi]
 CONTACT_EMAIL=atmosferyapiinsaat@gmail.com
 ```
 
-**Next.js URL:** https://atmosferyapiinsaat.com
-**Metabase URL:** https://atmosferyapiinsaat.com
+**Next.js URL:** https://atmosferyapi.com
+**Metabase URL:** https://atmosferyapi.com
 
 ---
 

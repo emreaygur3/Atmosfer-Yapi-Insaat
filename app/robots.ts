@@ -14,6 +14,6 @@ export default function robots(): MetadataRoute.Robots {
         disallow: '/api/',
       },
     ],
-    sitemap: 'https://atmosferyapiinsaat.com/sitemap.xml',
+    sitemap: 'https://atmosferyapi.com/sitemap.xml',
   }
 }
