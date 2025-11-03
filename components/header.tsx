@@ -17,7 +17,7 @@ const serviceItems = [
   { name: "Flanşlı İskele", href: "/services/flansli-iskele" },
   { name: "Mobil İskele", href: "/services/mobil-iskele" },
   { name: "Teleskobik İnşaat Direği", href: "/services/teleskobik-insaat-diregi" },
-  { name: "Çiroz Asansör ve Playwood", href: "/services/ciroz-asansor-playwood" },
+  { name: "İskele Kalıp Aksesuarları", href: "/services/ciroz-asansor-playwood" },
 ]
 
 export function Header() {

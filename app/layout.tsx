@@ -8,10 +8,81 @@ import { Footer } from "@/components/footer"
 const inter = Inter({ subsets: ["latin", "latin-ext"] })
 
 export const metadata: Metadata = {
-  title: "Atmosfer Yapı İnşaat - İskele ve Kalıp Sistemleri",
+  title: "Atmosfer Yapı İnşaat - İskele Kiralama ve Satış | Bitlis, Van, Muş, Siirt",
   description:
-    "Bitlis merkezli iskele ve kalıp sistemlerinde kiralama, satış ve imalat hizmetleri. Güvenilir çözüm ortağınız.",
-    generator: 'v0.app'
+    "Bitlis, Van, Muş ve Siirt'te iskele kiralama, satış ve imalat. Güvenlikli iskele, flanşlı iskele, mobil iskele, teleskobik direk sistemleri. 7/24 hizmet, hızlı teslimat. ☎️ 0533 087 19 48",
+  keywords: [
+    "iskele kiralama bitlis",
+    "iskele satış bitlis",
+    "güvenlikli iskele bitlis",
+    "flanşlı iskele bitlis",
+    "mobil iskele bitlis",
+    "teleskobik direk bitlis",
+    "iskele kalıp aksesuarları",
+    "iskele kiralama van",
+    "iskele kiralama muş",
+    "iskele kiralama siirt",
+    "iskele kiralama tatvan",
+    "inşaat iskelesi bitlis",
+    "scaffolding bitlis",
+    "iskele sistemi doğu anadolu",
+    "kalıp sistemleri bitlis",
+    "iskele firması bitlis",
+    "iskele malzemeleri",
+    "inşaat ekipmanları bitlis"
+  ],
+  authors: [{ name: "Atmosfer Yapı İnşaat" }],
+  generator: "Next.js",
+  applicationName: "Atmosfer Yapı İnşaat",
+  referrer: "origin-when-cross-origin",
+  creator: "Atmosfer Yapı İnşaat",
+  publisher: "Atmosfer Yapı İnşaat",
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
+  metadataBase: new URL("https://atmosferyapiinsaat.com"),
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    title: "Atmosfer Yapı İnşaat - İskele Kiralama ve Satış | Bitlis",
+    description:
+      "Bitlis, Van, Muş ve Siirt bölgesinde iskele kiralama ve satış hizmetleri. Güvenilir, hızlı ve profesyonel çözümler.",
+    url: "https://atmosferyapiinsaat.com",
+    siteName: "Atmosfer Yapı İnşaat",
+    locale: "tr_TR",
+    type: "website",
+    images: [
+      {
+        url: "/main-page.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Atmosfer Yapı İnşaat - İskele Sistemleri",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Atmosfer Yapı İnşaat - İskele Kiralama ve Satış | Bitlis",
+    description: "Bitlis ve çevresinde profesyonel iskele kiralama ve satış hizmetleri",
+    images: ["/main-page.jpg"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  verification: {
+    google: "google-site-verification-code", // Google Search Console'dan alınacak
+  },
 }
 
 export default function RootLayout({
@@ -19,8 +90,112 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    name: "Atmosfer Yapı İnşaat",
+    image: "https://atmosferyapiinsaat.com/main-page.jpg",
+    "@id": "https://atmosferyapiinsaat.com",
+    url: "https://atmosferyapiinsaat.com",
+    telephone: "+905330871948",
+    email: "atmosferyapiinsaat@gmail.com",
+    priceRange: "$$",
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: "Fatih Mah. Bitlis Yolu Cad. Zafer Petrol Yanı No:67-1",
+      addressLocality: "Tatvan",
+      addressRegion: "Bitlis",
+      postalCode: "13200",
+      addressCountry: "TR",
+    },
+    geo: {
+      "@type": "GeoCoordinates",
+      latitude: 38.5182,
+      longitude: 42.2526,
+    },
+    openingHoursSpecification: {
+      "@type": "OpeningHoursSpecification",
+      dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      opens: "00:00",
+      closes: "23:59",
+    },
+    sameAs: [
+      "https://www.facebook.com/orhan.icen",
+      "https://www.instagram.com/icen.orhan/",
+      "https://wa.me/905330871948",
+    ],
+    description:
+      "Bitlis, Van, Muş ve Siirt'te iskele kiralama, satış ve imalat hizmetleri. Güvenlikli iskele, flanşlı iskele, mobil iskele sistemleri.",
+    areaServed: [
+      {
+        "@type": "City",
+        name: "Bitlis",
+      },
+      {
+        "@type": "City",
+        name: "Van",
+      },
+      {
+        "@type": "City",
+        name: "Muş",
+      },
+      {
+        "@type": "City",
+        name: "Siirt",
+      },
+      {
+        "@type": "City",
+        name: "Tatvan",
+      },
+    ],
+    hasOfferCatalog: {
+      "@type": "OfferCatalog",
+      name: "İskele ve Kalıp Sistemleri",
+      itemListElement: [
+        {
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Service",
+            name: "Güvenlikli İskele Kiralama",
+            description: "EN standartlarına uygun güvenlikli iskele sistemleri kiralama ve satış",
+          },
+        },
+        {
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Service",
+            name: "Flanşlı İskele",
+            description: "Hızlı montaj ve demontaj imkanı sunan flanşlı iskele sistemleri",
+          },
+        },
+        {
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Service",
+            name: "Mobil İskele",
+            description: "Kolay taşınabilir mobil iskele sistemleri kiralama",
+          },
+        },
+        {
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Service",
+            name: "Teleskobik İnşaat Direği",
+            description: "Ayarlanabilir yükseklik özelliği ile teleskopik direk sistemleri",
+          },
+        },
+      ],
+    },
+  }
+
   return (
     <html lang="tr">
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      </head>
       <body className={inter.className}>
         <Header />
         <main className="pt-16 sm:pt-20 lg:pt-24 animate-fade-in">{children}</main>
