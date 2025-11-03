@@ -14,6 +14,7 @@ export const metadata: Metadata = {
   keywords: [
     // Doğu Anadolu İlleri
     "iskele kiralama bitlis",
+    "iskele kiralama tatvan",
     "iskele kiralama van",
     "iskele kiralama muş",
     "iskele kiralama siirt",
@@ -49,6 +50,7 @@ export const metadata: Metadata = {
     "mobil iskele muş",
     "teleskobik direk siirt",
     "iskele satış bitlis",
+    "iskele satış tatvan",
     "iskele imalat doğu anadolu"
   ],
   authors: [{ name: "Atmosfer Yapı İnşaat" }],
