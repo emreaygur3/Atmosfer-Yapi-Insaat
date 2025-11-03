@@ -4,10 +4,15 @@ import { ScrollReveal } from "@/components/scroll-reveal"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Hizmetlerimiz | Atmosfer Yapı İnşaat",
+  title: "İskele Sistemleri ve Hizmetlerimiz | Bitlis - Atmosfer Yapı İnşaat",
   description:
-    "İskele ve kalıp sistemleri hizmetlerimiz: Güvenlikli iskele, flanşlı iskele, mobil iskele, teleskobik inşaat direği ve çiroz asansör sistemleri.",
-  keywords: "iskele hizmetleri, güvenlikli iskele, flanşlı iskele, mobil iskele, teleskobik direk, çiroz asansör",
+    "Bitlis'te iskele kiralama ve satış: Güvenlikli iskele, flanşlı iskele, mobil iskele, teleskobik direk, iskele kalıp aksesuarları. Van, Muş, Siirt'e teslimat. ☎️ 0533 087 19 48",
+  keywords: "iskele kiralama bitlis, güvenlikli iskele bitlis, flanşlı iskele, mobil iskele, teleskobik direk bitlis, iskele kalıp aksesuarları, iskele satış bitlis, inşaat iskelesi, scaffolding bitlis, iskele firması",
+  openGraph: {
+    title: "İskele Sistemleri ve Hizmetlerimiz | Bitlis",
+    description: "Bitlis ve çevresinde profesyonel iskele kiralama ve satış hizmetleri",
+    url: "https://atmosferyapiinsaat.com/services",
+  },
 }
 
 const services = [

@@ -5,15 +5,26 @@ import { ScrollReveal } from "@/components/scroll-reveal"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Atmosfer Yapı İnşaat | İskele ve Kalıp Sistemleri",
+  title: "İskele Kiralama Bitlis | Atmosfer Yapı İnşaat - Güvenlikli İskele Sistemleri",
   description:
-    "Bitlis merkezli iskele ve kalıp sistemleri imalatı, kiralama ve satış hizmeti. Güvenlikli iskele, flanşlı iskele, mobil iskele ve teleskobik direk çözümleri.",
+    "Bitlis'te profesyonel iskele kiralama ve satış. Güvenlikli, flanşlı, mobil iskele sistemleri. Van, Muş, Siirt'e hızlı teslimat. ☎️ 0533 087 19 48 | 7/24 Hizmet",
   keywords:
-    "iskele, kalıp sistemleri, güvenlikli iskele, flanşlı iskele, mobil iskele, teleskobik direk, inşaat, Bitlis",
+    "iskele kiralama bitlis, iskele satış bitlis, güvenlikli iskele, flanşlı iskele, mobil iskele, teleskobik direk, iskele kalıp aksesuarları, inşaat iskelesi bitlis, iskele kiralama tatvan, iskele kiralama van, iskele kiralama muş, iskele kiralama siirt, scaffolding bitlis, iskele firması bitlis",
   openGraph: {
-    title: "Atmosfer Yapı İnşaat | İskele ve Kalıp Sistemleri",
-    description: "Kiralık ve Satılık İskele – Kalıp Sistemleri Alanında Güvenilir Çözüm Ortağınız",
+    title: "İskele Kiralama Bitlis | Atmosfer Yapı İnşaat",
+    description: "Bitlis, Van, Muş ve Siirt'te profesyonel iskele kiralama ve satış hizmetleri. Hızlı teslimat, uygun fiyat.",
     type: "website",
+    locale: "tr_TR",
+    url: "https://atmosferyapiinsaat.com",
+    siteName: "Atmosfer Yapı İnşaat",
+    images: [
+      {
+        url: "/main-page.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Atmosfer Yapı İnşaat - İskele Sistemleri Bitlis",
+      },
+    ],
   },
 }
 
