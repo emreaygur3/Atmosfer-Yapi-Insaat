@@ -8,28 +8,48 @@ import { Footer } from "@/components/footer"
 const inter = Inter({ subsets: ["latin", "latin-ext"] })
 
 export const metadata: Metadata = {
-  title: "Atmosfer Yapı İnşaat - İskele Kiralama ve Satış | Bitlis, Van, Muş, Siirt",
+  title: "Atmosfer Yapı İnşaat - İskele Kiralama ve Satış | Doğu Anadolu, Türkiye Geneli",
   description:
-    "Bitlis, Van, Muş ve Siirt'te iskele kiralama, satış ve imalat. Güvenlikli iskele, flanşlı iskele, mobil iskele, teleskobik direk sistemleri. 7/24 hizmet, hızlı teslimat. ☎️ 0533 087 19 48",
+    "Türkiye geneli ve Doğu Anadolu bölgesinde profesyonel iskele kiralama, satış ve imalat. Bitlis, Van, Muş, Siirt, Diyarbakır, Elazığ, Batman, Erzurum. Güvenlikli iskele, flanşlı iskele, mobil iskele, teleskobik direk. 7/24 hizmet, hızlı teslimat. ☎️ 0533 087 19 48",
   keywords: [
+    // Doğu Anadolu İlleri
     "iskele kiralama bitlis",
-    "iskele satış bitlis",
-    "güvenlikli iskele bitlis",
-    "flanşlı iskele bitlis",
-    "mobil iskele bitlis",
-    "teleskobik direk bitlis",
-    "iskele kalıp aksesuarları",
     "iskele kiralama van",
     "iskele kiralama muş",
     "iskele kiralama siirt",
-    "iskele kiralama tatvan",
-    "inşaat iskelesi bitlis",
-    "scaffolding bitlis",
-    "iskele sistemi doğu anadolu",
-    "kalıp sistemleri bitlis",
-    "iskele firması bitlis",
+    "iskele kiralama diyarbakır",
+    "iskele kiralama elazığ",
+    "iskele kiralama batman",
+    "iskele kiralama erzurum",
+    "iskele kiralama ağrı",
+    "iskele kiralama bingöl",
+    "iskele kiralama hakkari",
+    "iskele kiralama mardin",
+    "iskele kiralama şırnak",
+    // Genel Arama Terimleri
+    "iskele kiralama türkiye",
+    "iskele kiralama doğu anadolu",
+    "güvenlikli iskele kiralama",
+    "flanşlı iskele satış",
+    "mobil iskele fiyatları",
+    "teleskobik direk kiralama",
+    "iskele kalıp aksesuarları",
+    "inşaat iskelesi",
+    "scaffolding turkey",
+    "iskele sistemi",
+    "kalıp sistemleri",
+    "iskele firması",
     "iskele malzemeleri",
-    "inşaat ekipmanları bitlis"
+    "inşaat ekipmanları",
+    "çatı iskelesi",
+    "cephe iskelesi",
+    // Bölgesel + Ürün Kombinasyonları
+    "güvenlikli iskele bitlis",
+    "flanşlı iskele van",
+    "mobil iskele muş",
+    "teleskobik direk siirt",
+    "iskele satış bitlis",
+    "iskele imalat doğu anadolu"
   ],
   authors: [{ name: "Atmosfer Yapı İnşaat" }],
   generator: "Next.js",
@@ -42,15 +62,15 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL("https://atmosferyapiinsaat.com"),
+  metadataBase: new URL("https://atmosferyapi.com"),
   alternates: {
     canonical: "/",
   },
   openGraph: {
-    title: "Atmosfer Yapı İnşaat - İskele Kiralama ve Satış | Bitlis",
+    title: "Atmosfer Yapı İnşaat - İskele Kiralama ve Satış | Doğu Anadolu & Türkiye",
     description:
-      "Bitlis, Van, Muş ve Siirt bölgesinde iskele kiralama ve satış hizmetleri. Güvenilir, hızlı ve profesyonel çözümler.",
-    url: "https://atmosferyapiinsaat.com",
+      "Türkiye geneli ve Doğu Anadolu bölgesinde profesyonel iskele kiralama, satış ve imalat hizmetleri. Bitlis, Van, Muş, Siirt, Diyarbakır, Elazığ, Batman, Erzurum ve tüm iller. Güvenilir, hızlı teslimat, 7/24 hizmet.",
+    url: "https://atmosferyapi.com",
     siteName: "Atmosfer Yapı İnşaat",
     locale: "tr_TR",
     type: "website",
@@ -65,8 +85,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Atmosfer Yapı İnşaat - İskele Kiralama ve Satış | Bitlis",
-    description: "Bitlis ve çevresinde profesyonel iskele kiralama ve satış hizmetleri",
+    title: "Atmosfer Yapı İnşaat - İskele Kiralama | Doğu Anadolu & Türkiye",
+    description: "Türkiye geneli ve Doğu Anadolu'da profesyonel iskele kiralama, satış ve imalat hizmetleri. 7/24 destek, hızlı teslimat.",
     images: ["/main-page.jpg"],
   },
   robots: {
@@ -94,9 +114,9 @@ export default function RootLayout({
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     name: "Atmosfer Yapı İnşaat",
-    image: "https://atmosferyapiinsaat.com/main-page.jpg",
-    "@id": "https://atmosferyapiinsaat.com",
-    url: "https://atmosferyapiinsaat.com",
+    image: "https://atmosferyapi.com/main-page.jpg",
+    "@id": "https://atmosferyapi.com",
+    url: "https://atmosferyapi.com",
     telephone: "+905330871948",
     email: "atmosferyapiinsaat@gmail.com",
     priceRange: "$$",
@@ -125,7 +145,7 @@ export default function RootLayout({
       "https://wa.me/905330871948",
     ],
     description:
-      "Bitlis, Van, Muş ve Siirt'te iskele kiralama, satış ve imalat hizmetleri. Güvenlikli iskele, flanşlı iskele, mobil iskele sistemleri.",
+      "Türkiye geneli ve Doğu Anadolu bölgesinde iskele kiralama, satış ve imalat hizmetleri. Bitlis, Van, Muş, Siirt, Diyarbakır, Elazığ, Batman, Erzurum. Güvenlikli iskele, flanşlı iskele, mobil iskele sistemleri. 7/24 hizmet, hızlı teslimat.",
     areaServed: [
       {
         "@type": "City",
@@ -146,6 +166,50 @@ export default function RootLayout({
       {
         "@type": "City",
         name: "Tatvan",
+      },
+      {
+        "@type": "City",
+        name: "Diyarbakır",
+      },
+      {
+        "@type": "City",
+        name: "Elazığ",
+      },
+      {
+        "@type": "City",
+        name: "Batman",
+      },
+      {
+        "@type": "City",
+        name: "Erzurum",
+      },
+      {
+        "@type": "City",
+        name: "Ağrı",
+      },
+      {
+        "@type": "City",
+        name: "Bingöl",
+      },
+      {
+        "@type": "City",
+        name: "Hakkari",
+      },
+      {
+        "@type": "City",
+        name: "Mardin",
+      },
+      {
+        "@type": "City",
+        name: "Şırnak",
+      },
+      {
+        "@type": "State",
+        name: "Doğu Anadolu Bölgesi",
+      },
+      {
+        "@type": "Country",
+        name: "Türkiye",
       },
     ],
     hasOfferCatalog: {

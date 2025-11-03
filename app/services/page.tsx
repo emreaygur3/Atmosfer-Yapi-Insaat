@@ -4,14 +4,14 @@ import { ScrollReveal } from "@/components/scroll-reveal"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "İskele Sistemleri ve Hizmetlerimiz | Bitlis - Atmosfer Yapı İnşaat",
+  title: "İskele Sistemleri ve Hizmetlerimiz | Doğu Anadolu & Türkiye - Atmosfer Yapı İnşaat",
   description:
-    "Bitlis'te iskele kiralama ve satış: Güvenlikli iskele, flanşlı iskele, mobil iskele, teleskobik direk, iskele kalıp aksesuarları. Van, Muş, Siirt'e teslimat. ☎️ 0533 087 19 48",
-  keywords: "iskele kiralama bitlis, güvenlikli iskele bitlis, flanşlı iskele, mobil iskele, teleskobik direk bitlis, iskele kalıp aksesuarları, iskele satış bitlis, inşaat iskelesi, scaffolding bitlis, iskele firması",
+    "Türkiye geneli ve Doğu Anadolu'da iskele kiralama, satış ve imalat: Güvenlikli iskele, flanşlı iskele, mobil iskele, teleskobik direk, iskele kalıp aksesuarları. Bitlis, Van, Muş, Siirt, Diyarbakır, Elazığ, Batman, Erzurum. ☎️ 0533 087 19 48",
+  keywords: "iskele kiralama, iskele satış, güvenlikli iskele, flanşlı iskele, mobil iskele, teleskobik direk, iskele kalıp aksesuarları, inşaat iskelesi, scaffolding, iskele firması, iskele kiralama doğu anadolu, iskele kiralama türkiye, iskele kiralama bitlis, iskele kiralama van, iskele kiralama muş, iskele kiralama siirt, iskele kiralama diyarbakır, iskele kiralama elazığ, cephe iskelesi, çatı iskelesi",
   openGraph: {
-    title: "İskele Sistemleri ve Hizmetlerimiz | Bitlis",
-    description: "Bitlis ve çevresinde profesyonel iskele kiralama ve satış hizmetleri",
-    url: "https://atmosferyapiinsaat.com/services",
+    title: "İskele Sistemleri ve Hizmetlerimiz | Doğu Anadolu & Türkiye",
+    description: "Türkiye geneli ve Doğu Anadolu'da profesyonel iskele kiralama, satış ve imalat hizmetleri. 7/24 destek, hızlı teslimat.",
+    url: "https://atmosferyapi.com/services",
   },
 }
 

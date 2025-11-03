@@ -5,17 +5,17 @@ import { ScrollReveal } from "@/components/scroll-reveal"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "İskele Kiralama Bitlis | Atmosfer Yapı İnşaat - Güvenlikli İskele Sistemleri",
+  title: "İskele Kiralama | Atmosfer Yapı İnşaat - Doğu Anadolu & Türkiye Geneli",
   description:
-    "Bitlis'te profesyonel iskele kiralama ve satış. Güvenlikli, flanşlı, mobil iskele sistemleri. Van, Muş, Siirt'e hızlı teslimat. ☎️ 0533 087 19 48 | 7/24 Hizmet",
+    "Türkiye geneli ve Doğu Anadolu'da profesyonel iskele kiralama, satış ve imalat. Bitlis, Van, Muş, Siirt, Diyarbakır, Elazığ, Batman, Erzurum. Güvenlikli, flanşlı, mobil iskele sistemleri. ☎️ 0533 087 19 48 | 7/24 Hizmet, Hızlı Teslimat",
   keywords:
-    "iskele kiralama bitlis, iskele satış bitlis, güvenlikli iskele, flanşlı iskele, mobil iskele, teleskobik direk, iskele kalıp aksesuarları, inşaat iskelesi bitlis, iskele kiralama tatvan, iskele kiralama van, iskele kiralama muş, iskele kiralama siirt, scaffolding bitlis, iskele firması bitlis",
+    "iskele kiralama, iskele satış, güvenlikli iskele, flanşlı iskele, mobil iskele, teleskobik direk, iskele kiralama bitlis, iskele kiralama van, iskele kiralama muş, iskele kiralama siirt, iskele kiralama diyarbakır, iskele kiralama elazığ, iskele kiralama batman, iskele kiralama erzurum, iskele kiralama doğu anadolu, iskele kiralama türkiye, inşaat iskelesi, scaffolding turkey, iskele kalıp aksesuarları, iskele firması, cephe iskelesi, çatı iskelesi",
   openGraph: {
-    title: "İskele Kiralama Bitlis | Atmosfer Yapı İnşaat",
-    description: "Bitlis, Van, Muş ve Siirt'te profesyonel iskele kiralama ve satış hizmetleri. Hızlı teslimat, uygun fiyat.",
+    title: "İskele Kiralama | Atmosfer Yapı İnşaat - Doğu Anadolu & Türkiye",
+    description: "Türkiye geneli ve Doğu Anadolu'da profesyonel iskele kiralama, satış ve imalat. Bitlis, Van, Muş, Siirt, Diyarbakır, Elazığ, Batman, Erzurum. Hızlı teslimat, uygun fiyat, 7/24 hizmet.",
     type: "website",
     locale: "tr_TR",
-    url: "https://atmosferyapiinsaat.com",
+    url: "https://atmosferyapi.com",
     siteName: "Atmosfer Yapı İnşaat",
     images: [
       {

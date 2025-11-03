@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://atmosferyapiinsaat.com'
+  const baseUrl = 'https://atmosferyapi.com'
 
   return [
     {
