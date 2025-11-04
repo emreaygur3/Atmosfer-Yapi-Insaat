@@ -68,6 +68,14 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "/",
   },
+  icons: {
+    icon: [
+      { url: "/images/design-mode/LOGO.png", sizes: "32x32", type: "image/png" },
+      { url: "/images/design-mode/LOGO.png", sizes: "16x16", type: "image/png" },
+    ],
+    shortcut: "/images/design-mode/LOGO.png",
+    apple: "/images/design-mode/LOGO.png",
+  },
   openGraph: {
     title: "Atmosfer Yapı İnşaat - İskele Kiralama ve Satış | Doğu Anadolu & Türkiye",
     description:

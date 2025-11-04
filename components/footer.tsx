@@ -1,6 +1,6 @@
 import Link from "next/link"
 import Image from "next/image"
-import { Instagram, Facebook, MessageCircle } from "lucide-react"
+import { Instagram, Facebook, MessageCircle, Github } from "lucide-react"
 
 export function Footer() {
   return (
@@ -68,6 +68,18 @@ export function Footer() {
         {/* Copyright - Centered below on all screens */}
         <div className="text-center mt-4 sm:mt-6 pt-4 sm:pt-6 border-t border-border/50">
           <p className="text-xs sm:text-sm text-muted-foreground">© 2025 Atmosfer Yapı İnşaat. Tüm hakları saklıdır.</p>
+          <p className="text-xs text-muted-foreground mt-2 flex items-center justify-center gap-1">
+            Designed by{" "}
+            <a
+              href="https://github.com/emreaygur3"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-primary hover:underline transition-colors duration-300 cursor-pointer inline-flex items-center gap-1"
+            >
+              emreaygur3
+              <Github className="w-3 h-3" />
+            </a>
+          </p>
         </div>
       </div>
     </footer>
