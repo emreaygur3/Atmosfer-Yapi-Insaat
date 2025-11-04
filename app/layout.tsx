@@ -70,11 +70,14 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
+      { url: "/favicon.ico", sizes: "any" },
       { url: "/images/design-mode/LOGO.png", sizes: "32x32", type: "image/png" },
       { url: "/images/design-mode/LOGO.png", sizes: "16x16", type: "image/png" },
     ],
-    shortcut: "/images/design-mode/LOGO.png",
-    apple: "/images/design-mode/LOGO.png",
+    shortcut: ["/favicon.ico"],
+    apple: [
+      { url: "/images/design-mode/LOGO.png", sizes: "180x180", type: "image/png" },
+    ],
   },
   openGraph: {
     title: "Atmosfer Yapı İnşaat - İskele Kiralama ve Satış | Doğu Anadolu & Türkiye",
@@ -85,6 +88,12 @@ export const metadata: Metadata = {
     locale: "tr_TR",
     type: "website",
     images: [
+      {
+        url: "/images/design-mode/LOGO.png",
+        width: 1200,
+        height: 630,
+        alt: "Atmosfer Yapı İnşaat Logo",
+      },
       {
         url: "/main-page.jpg",
         width: 1200,
